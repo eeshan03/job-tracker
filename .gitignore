@@ -1,0 +1,9 @@
+.env
+venv/
+telegram_session/
+common/__pycache__
+state/
+config.yaml
+resume.md
+telegram_jobs.csv
+careers_jobs.csv

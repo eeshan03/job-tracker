@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug match_jobs.py (1 row)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/match_jobs.py",
+            "args": ["1"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug harvest_telegram.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/harvest_telegram.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug matcher.py (standalone)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/common/matcher.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

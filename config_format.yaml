@@ -1,0 +1,17 @@
+telegram:
+  channels:
+    - "@channel_username_1"
+    - "@channel_username_2"
+
+careers_pages:
+  - company: "CompanyName"
+    url: "https://company.com/careers"
+
+matching:
+  provider: "gemini"
+  skills_weight: 0.6
+  experience_weight: 0.4
+  careers_page_threshold: 40
+  groq_fallback_enabled: true
+
+resume_path: "resume.md"
