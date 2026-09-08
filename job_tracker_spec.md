@@ -78,6 +78,7 @@ matching:
   skills_weight: 0.6
   experience_weight: 0.4
   careers_page_threshold: 40  # % — score needed to auto-add from careers pages
+  groq_fallback_enabled: true
 
 resume_path: "resume.md"
 ```
