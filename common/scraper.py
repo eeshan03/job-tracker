@@ -53,7 +53,7 @@ def fetch_page_links(url: str, timeout: int = 30000, max_expand_attempts: int = 
 
 def fetch_page_text(url: str, timeout: int = 30000) -> str:
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         try:
             page.goto(url, timeout=timeout, wait_until="domcontentloaded")
